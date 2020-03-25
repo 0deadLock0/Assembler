@@ -1,6 +1,3 @@
-/*input
-testing.txt
-*/
 /*
 Two Pass Assembler:
 	"driver.cpp" - Part of a set of programs 	
