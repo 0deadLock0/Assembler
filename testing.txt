@@ -1,0 +1,13 @@
+#Greater of two positive numbers
+CLA
+# DSP A #forward referencing
+INP   A #take first input
+   INP B#take second input
+LAC A   #loading first input in accumulator
+SUB B	#subtracting second input from accumulator content
+BRp    first	#jumping to label first
+DSp   2#INP  #error: reserved name used
+	STP
+  first: #dsp 1
+  dsp 1 #A
+      stp	#:
