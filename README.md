@@ -1,9 +1,9 @@
 # Assembler
-https://github.com/Abhimanyu-Gupta23/Assembler/
+https://github.com/0deadLock0/Assembler/
 
 DOCUMENTATION::
 **************************************************************BRIEF*********************************************************************
-Author: Abhimanyu Gupta (abhimanyu19226@iiitd.ac.in)
+Author: Abhimanyu Gupta (guptaabhimanyu23@gmail.com)
 Functionality:
 	Converts a given assembly code present in some txt file into its adequate machine/object code and writes it down in another txt file
 For Purpose: Assembler Project in CSE112-Computer Organization at IIIT-Delhi
