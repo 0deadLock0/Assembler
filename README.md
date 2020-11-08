@@ -162,13 +162,13 @@ Method 1: Using executable program
 	*Enter the file name containing assembly code.
 	*The assembler will start working now.
 	*Check the generated object/machine code in the produced output file.
-Method 2:	Using command prompt or terminal
+Method 2: Using command prompt or terminal
 	*Enter "g++ -std=c++17 driver.cpp -o main" (without quotes)
 	*Enter "main" (without quotes)
 	*Enter the file name containing assembly code.
 	*The assembler will start working now.
 	*Check the generated object/machine code in the produced output file.
-Method 3:	Using IDE
+Method 3: Using IDE
 	*First check if C++17 is supported or not.
 	*Complie and Run the "driver.cpp"
 	*Enter the file name containing assembly code.
