@@ -2,12 +2,14 @@
 https://github.com/0deadLock0/Assembler/
 
 DOCUMENTATION::
+****************************************************************************************************************************************
 **************************************************************BRIEF*********************************************************************
 Author: Abhimanyu Gupta (guptaabhimanyu23@gmail.com)
 Functionality:
 	Converts a given assembly code present in some txt file into its adequate machine/object code and writes it down in another txt file
 For Purpose: Assembler Project in CSE112-Computer Organization at IIIT-Delhi
-Includes:	driver.cpp - maintains the flow of the Assembler while handling serious errors
+Includes:
+	driver.cpp - maintains the flow of the Assembler while handling serious errors
 	lexer.h - provides functions which defines the lexical structure of program and do tokenisation alongwith basic syntax checking
 	parser.h - provides functions which gives meaning to the assembly code and convert it to machine/object code
 	symbolTable.h - provides functions which builds the symbol tabel for the provided assmebly code with looking for some context specific errors 
@@ -28,8 +30,8 @@ Note- Comments can be placed after end of the instruction in any above format or
 CHARACTERS SUPPORTED:
 *Alphabets
 *Digits (only as Literals)
-* # (defines start of a comment)
-* : (defines a label,can't exists seprately)
+* '#' (defines start of a comment)
+* ':' (defines a label,can't exists seprately)
 *Space and Horizontal Tab Space
 
 VARRIABLES/LABEL/OPCODE NAMING RULES:
@@ -39,20 +41,20 @@ VARRIABLES/LABEL/OPCODE NAMING RULES:
 *No support for names with underscores or any other character which is not support by language(mentioned above)
 
 RECOGNISED OPCODES:
-Machine/Object Opcode			              Meaning			         Assembly Opcode
-            0000	  			      Clear accumulator				CLA
-            0001			         Load into accumulator from address			LAC
-            0010			       Store accumulator contents into address			SAC
-            0011		                    Add address contents to accumulator contents		ADD
-            0100		              Subtract address contents from accumulator contents		SUB
-            0101		                   Branch to address if accumulator contains zero		BRZ
-            0110		           Branch to address if accumulator contains negative value		BRN
-            0111		            Branch to address if accumulator contains positive value		BRP
-            1000			       Read from terminal and put in address			INP
-            1001			         Display value in address on terminal			DSP
-            1010			    Multiply accumulator and address contents			MUL
-            1011	      Divide accumulator contents by address content. Quotient in R1 and remainder in R2	DIV
-            1100				       Stop execution				STP
+Machine/Object OpCode						Meaning								Assembly Opcode
+	0000				Clear accumulator										CLA
+	0001				Load into accumulator from address								LAC
+	0010				Store accumulator contents into address								SAC
+	0011				Add address contents to accumulator contents							ADD
+	0100				Subtract address contents from accumulator contents						SUB
+	0101				Branch to address if accumulator contains zero							BRZ
+	0110				Branch to address if accumulator contains negative value					BRN
+	0111				Branch to address if accumulator contains positive value					BRP
+	1000				Read from terminal and put in address								INP
+	1001				Display value in address on terminal								DSP
+	1010				Multiply accumulator and address contents							MUL
+	1011				Divide accumulator contents by address content. Quotient in R1 and remainder in R2		DIV
+	1100				Stop execution											STP
 
 VARRIABLES USAGE:
 *Varriable is assumed to be declared when either INP or SAC is attached to it in the same line for the time
